@@ -220,7 +220,7 @@ public class MainActivity extends FragmentActivity
 	
 	public void changeToEarth(View view)
 	{
-		Intent changetoEarth=new Intent(MainActivity.this,MainEarthActivity.class);
+		Intent changetoEarth=new Intent(MainActivity.this,ChristmasTimerActivity.class);
 		startActivity(changetoEarth);
 	}
 }

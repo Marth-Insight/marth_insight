@@ -256,7 +256,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:background="@drawable/image_button_background"
-        android:onClick="refresh"
         android:padding="5dp"
         android:src="@drawable/satellite_vista" />
 
@@ -267,7 +266,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:background="@drawable/image_button_background"
-        android:onClick="showTrivia"
         android:padding="5dp"
         android:src="@drawable/insect_robot" />
 

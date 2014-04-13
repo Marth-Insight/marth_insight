@@ -13,7 +13,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/weathermarsian"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Black.NoTitleBar" >
         <activity
@@ -44,6 +44,12 @@
         
         <activity
             android:name="com.spaceappschallenge.weatheronmars.MainEarthActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.spaceappschallenge.weatheronmars.ChristmasTimerActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
