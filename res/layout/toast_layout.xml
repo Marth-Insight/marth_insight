@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/bubble" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ImageView1"
+        android:layout_alignTop="@+id/ImageView1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/did_you_know_"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvTriviaDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="TextView" />
+
+</RelativeLayout>

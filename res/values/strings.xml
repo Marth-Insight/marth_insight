@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Marth Insight</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_twitter">TwitterActivity</string>
+    <string name="date">Date</string>
+    <string name="sunrise_sunset">Sunrise/Sunset</string>
+    <string name="sunrise">Sunrise:</string>
+    <string name="temperature_">Temperature:</string>
+    <string name="pressure_">Pressure:</string>
+    <string name="wind_speed_">Wind Speed:</string>
+    <string name="humidity_">Humidity:</string>
+    <string name="season_">Season:</string>
+    <string name="weather">Weather</string>
+    <string name="twitter">Twitter</string>
+    <string name="network_connectivity_error_message">You are currently not connected to a network.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="proceed_with_cache">Proceed with OFFLINE data</string>
+    <string name="no_tweets_to_display">No tweets to display</string>
+    <string name="did_you_know_">Did you know?</string>
+    <string name="planet_label_earth">EARTH</string>
+    <string name="planet_label_mars">MARS</string>
+    
+    
+
+</resources>
